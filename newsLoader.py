@@ -8,6 +8,7 @@ url = ('http://newsapi.org/v2/everything?'
        'q=' + topic + '&'
        'from=2020-09-03&'
        'sortBy=popularity&'
+       'language=en&'
        'apiKey=' + api_key)
 
 response = requests.get(url)
